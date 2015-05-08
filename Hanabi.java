@@ -1,3 +1,4 @@
+import java.util.*;
 public class Hanabi
 {
    private static final int PLAYERS = 4;
@@ -9,6 +10,7 @@ public class Hanabi
    private static final int NUMBERS = COPIES.length;
    private static final int COLORS = 5;
    private static final int HAND = 5;
+   private static ArrayList<Card> deck = new ArrayList<Card>();
    public static void main(String[] args)
    {
       
